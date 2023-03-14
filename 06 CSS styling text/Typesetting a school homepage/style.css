@@ -1,0 +1,140 @@
+/* General setup */
+
+
+@font-face {
+  font-family: 'uthman';
+  src: url('font/garto16-webfont.eot');
+  src: url('font/garto16-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/garto16-webfont.woff2') format('woff2'),
+       url('font/garto16-webfont.woff') format('woff'),
+       url('font/garto16-webfont.ttf') format('truetype'),
+       url('font/garto16-webfont.svg#gartonmedium') format('svg');
+  font-weight: normal;
+  font-style: norlmal;
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+  /* header and footer */
+  
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+html{
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'uthman', sans-serif;
+}
+
+header{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+a{
+  outline: none;
+  padding: 0px 1px ;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+
+p{
+  text-indent: 20px;
+  font-size: 1.2;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+  
+a[href^="https"] {
+  background: url(./external-link-52.png) no-repeat 100% 0;
+  background-size: 12px 12px;
+  padding-right: 15px;
+}
+
+a:link{
+  color: rgb(163, 9, 9);
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: rgb(100, 5, 5);
+}
+
+
+
+
+a:focus,
+a:hover {
+  color:rgb(163, 9, 9);
+  text-decoration: none;
+}
+
+
+nav li{
+  display: flex;
+  list-style-type: none;
+}
+
+nav li a{
+  flex: 1;
+  outline: none;
+  text-decoration: none;
+  line-height: 1.2rem;
+  border: 1px solid rgb(163, 9, 9);
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  
+
+}
